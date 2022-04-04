@@ -1,5 +1,5 @@
 #importing the dataset
-gld_price_data <- read.csv("C:/Users/Amra/Desktop/gld_price_data.csv")
+gld_price_data <- read.csv("C:/Users/User/Downloads/gld_price_data.csv")
 View(gld_price_data)
 #creating subset
 X<- subset(gld_price_data, select = -c(Date) )
